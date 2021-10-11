@@ -4,7 +4,8 @@
   "description": "realtime web chat",
   "main": "server.js",
   "scripts": {
-    "start": "supervisor server.js"
+    "test": "echo \"error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "joashb",
   "license": "MIT",
